@@ -46,6 +46,8 @@ input[aria-invalid=true] { border-color: var(--danger); }
 .todo-list .button { flex-shrink: 0; }
 .filters { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.25rem; }
 .filters [aria-pressed=true] { background: var(--ink); color: #fff; border-color: var(--ink); }
+.list-actions { margin-top: .75rem; }
+.button:disabled { cursor: not-allowed; opacity: .55; }
 #empty-list { margin-top: 1rem; }
 #app-status { min-height: 1.6em; margin-bottom: 0; }
 footer { margin: 1.25rem 0; font-size: .9rem; }
